@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            KONVERSI NILAI MATA KULIAH
+        </div>
+        <div class="form-container">
+            <form class="form" action="#">
+                <div class="form-group">
+
+                    <div class="form-group-left">
+                        <div class="form-input">
+                            <label for="nama1" class="label">Mata Kuliah 1</label>
+                            <input type="text" class="input" id="nama1">
+                        </div>
+                        <div class="form-input">
+                            <label for="nama2" class="label">Mata Kuliah 2</label>
+                            <input type="text" class="input" id="nama2">
+                        </div>
+                        <div class="form-input">
+                            <label for="nama3" class="label">Mata Kuliah 3</label>
+                            <input type="text" class="input" id="nama3">
+                        </div>
+                        <div class="form-input">
+                            <label for="nama4" class="label">Mata Kuliah 4</label>
+                            <input type="text" class="input" id="nama4">
+                        </div>
+                        <div class="form-input">
+                            <label for="nama5" class="label">Mata Kuliah 5</label>
+                            <input type="text" class="input" id="nama5">
+                        </div>
+                    </div>
+
+                    <div class="form-group-center">
+                        <div class="form-input">
+                            <label for="nilai1" class="label">Nilai Mata Kuliah 1</label>
+                            <input type="number" class="input" id="nilai1">
+                        </div>
+                        <div class="form-input">
+                            <label for="nilai2" class="label">Nilai Mata Kuliah 2</label>
+                            <input type="number" class="input" id="nilai2">
+                        </div>
+                        <div class="form-input">
+                            <label for="nilai3" class="label">Nilai Mata Kuliah 3</label>
+                            <input type="number" class="input" id="nilai3">
+                        </div>
+                        <div class="form-input">
+                            <label for="nilai4" class="label">Nilai Mata Kuliah 4</label>
+                            <input type="number" class="input" id="nilai4">
+                        </div>
+                        <div class="form-input">
+                            <label for="nilai5" class="label">Nilai Mata Kuliah 5</label>
+                            <input type="number" class="input" id="nilai5">
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group-center2">
+                        <div class="form-input">
+                            <label for="sks1" class="label">SKS Mata Kuliah 1</label>
+                            <input type="number" class="input" id="sks1">
+                        </div>
+                        <div class="form-input">
+                            <label for="sks2" class="label">SKS Mata Kuliah 2</label>
+                            <input type="number" class="input" id="sks2">
+                        </div>
+                        <div class="form-input">
+                            <label for="sks3" class="label">SKS Mata Kuliah 3</label>
+                            <input type="number" class="input" id="sks3">
+                        </div>
+                        <div class="form-input">
+                            <label for="sks4" class="label">SKS Mata Kuliah 4</label>
+                            <input type="number" class="input" id="sks4">
+                        </div>
+                        <div class="form-input">
+                            <label for="sks5" class="label">SKS Mata Kuliah 5</label>
+                            <input type="number" class="input" id="sks5">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group-right">
+                        <div class="form-input">
+                            <label for="pnilai1" class="label">Predikat Mata Kuliah 1</label>
+                            <input type="text" class="input" id="pnilai1" placeholder="-" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="pnilai2" class="label">Predikat Mata Kuliah 2</label>
+                            <input type="text" class="input" id="pnilai2" placeholder="-" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="pnilai3" class="label">Predikat Mata Kuliah 3</label>
+                            <input type="text" class="input" id="pnilai3" placeholder="-" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="pnilai4" class="label">Predikat Mata Kuliah 4</label>
+                            <input type="text" class="input" id="pnilai4" placeholder="-" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="pnilai5" class="label">Predikat Mata Kuliah 5</label>
+                            <input type="text" class="input" id="pnilai5" placeholder="-" disabled>
+                        </div>
+                        
+                        <div class="form-input">
+                            <label for="ipk" class="label">IPK</label>
+                            <input type="number" class="input" id="ipk" placeholder="0" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="predikat" class="label">Predikat</label>
+                            <input type="text" class="input" id="predikat" placeholder="-" disabled>
+                        </div>
+                        <div class="form-input">
+                            <label for="total_sks" class="label">Total SKS</label>
+                            <input type="number" class="input" id="total_sks" placeholder="0" disabled>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-control">
+                    <button type="submit" id="pay" class="pay">
+                        Convert
+                    </button>
+                    <button type="reset" id="cancel" class="cancel">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
